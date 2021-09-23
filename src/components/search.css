@@ -1,13 +1,39 @@
 body{
-    background-color: rgb(55, 83, 136);
+    background-color: #1b145a;
+}
+
+button{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.063);
+}
+
+.CenterSearch{
+    border-style: solid;
+    border-color: #d65d55;
+    text-align: center;
+    width: 25%;
+    margin-left: 35%;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 1%;
+}
+
+.BorderOptions{
+    border-style: solid;
+    border-color: #d65d55;
+    text-align: center;
+    width: 25%;
+    margin-left: 1%;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: -25.1%;
 }
 
 .searchBar{
-    margin-top: -9%;
-    margin-left: 12%;
+    margin-top: -8.5%;
+    margin-left: 0%;
     border-radius: 10px;
     border-color: transparent;
-    height: 5px;
 }
 
 .searchBar input{
@@ -18,12 +44,14 @@ body{
 }
 
 .iconSize{
-    margin-right: 85%;
-    margin-top: 7.5%;
+    margin-right: 82%;
+    margin-top: 6.5%;
 }
 
 .search_results{
-    width: 100%;
+    margin-left: 1.5%;
+    margin-top: 0%;
+    text-align: center;
 }
 
 .search_result{
@@ -35,6 +63,7 @@ body{
     height: 30px;
     border-radius: 8px;
     background-color: #e9e9e9;
+    text-align: center;
 }
 
 .global{
@@ -43,7 +72,66 @@ body{
     margin-right: auto;
     margin-top: 2%;
     height: 70px;
-    width: 40%;
-    background-color: #afafaf;
+    width: 90%;
+    background-color: #ed975e;
     border-radius: 7px;
+}
+
+.Popular{
+    width: 80%;
+    height: 50%;
+    margin: 5%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 50%;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.NamePopular{
+    background-color: #ed975e;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.Suggestion{
+    width: 80%;
+    height: 50%;
+    margin: 5%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.NameSuggestion{
+    background-color: #ed975e;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.Trajet{
+    background-color: #ed975e;
+    border-radius: 5px;
+    width: 80%;
+    margin: 5%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color: #ffffff;
 }
